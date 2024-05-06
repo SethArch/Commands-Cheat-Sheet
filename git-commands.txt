@@ -12,8 +12,12 @@ git commit -m "Message or description" > Commits the changes to the files with a
 git log > Shows what commits have been made and by whom
 git add . > Adds all the files in the directory. The dot "." works similar to * in other cases
 git diff filename.extension > Compares a files current state to its last commit
-q > Al revisar logs de cambio o estado a veces hay que presionar q para salir y poder seguir introduciendo comandos
-git checkout filename.extension > Regresa el archivo al estado del ultimo commit
-git commit -m "Message or desccdription" -- filename.extension > Commits changes to specified file
+q > Sometimes necessary after reviewing logs or status to continue entering commands. 
+git checkout filename.extension > Returns the file to the last commited state
+git commit -m "Message or description" -- filename.extension > Commits changes to specified file
 git reset HEAD filename.extension > removes a file from the stage
 git reset > removes all files from stage git
+git remote add origin "https://...." > Addresses a remote repository of name origin in given url. Name can be changed
+git push -u origin main > Pushes local repository to remote repository
+
+
