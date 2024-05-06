@@ -1,0 +1,19 @@
+cd > changes directories
+cd ~/Desktop > Change to Desktop
+mkdir > create a folder
+ls > list items in folder
+code filename.extension > opens the file of given "filename" and given "extension" 
+clear > clears the terminal
+ls -a > shows all files including hidden
+git init > Initializes git to start tracking a directory
+git status > shows which files are tracked and which arent
+git add filename.extension > adds such file to the stage to start tracking
+git commit -m "Message or description" > Commits the changes to the files with a message that should be changed accordingly. Wrting in present tense is common practice.
+git log > Shows what commits have been made and by whom
+git add . > Adds all the files in the directory. The dot "." works similar to * in other cases
+git diff filename.extension > Compares a files current state to its last commit
+q > Al revisar logs de cambio o estado a veces hay que presionar q para salir y poder seguir introduciendo comandos
+git checkout filename.extension > Regresa el archivo al estado del ultimo commit
+git commit -m "Message or desccdription" -- filename.extension > Commits changes to specified file
+git reset HEAD filename.extension > removes a file from the stage
+git reset > removes all files from stage git
