@@ -19,6 +19,7 @@ git reset HEAD filename.extension > removes a file from the stage
 git reset > removes all files from stage git
 git remote add origin "https://...." > Addresses a remote repository of name origin in given url. Name can be changed
 git push -u origin main > Pushes local repository to remote repository
+git push -f origin master > Forces a push when remote has gone through many commits.
 
 //New line
 
