@@ -1,10 +1,17 @@
 cd > changes directories
 cd ~/Desktop > Change to Desktop
 mkdir > create a folder
+touch filename.extension > Creates a file of given name and extension
 ls > list items in folder
 code filename.extension > opens the file of given "filename" and given "extension" 
 clear > clears the terminal
-ls -a > shows all files including hidden
+ls -a > shows all files including hidden'
+
+touch .gitignore > Creates file to setup files that will be always ignored by git
+        1 filename or folder name per line
+        Use *.extension to include all files of given extension
+        Comment with #
+        Github has a templates or recommendations of what to ignore based on the programming language used
 git init > Initializes git to start tracking a directory
 git status > shows which files are tracked and which arent
 git add filename.extension > adds such file to the stage to start tracking
@@ -15,11 +22,12 @@ git diff filename.extension > Compares a files current state to its last commit
 q > Sometimes necessary after reviewing logs or status to continue entering commands. 
 git checkout filename.extension > Returns the file to the last commited state
 git commit -m "Message or description" -- filename.extension > Commits changes to specified file
-git reset HEAD filename.extension > removes a file from the stage
-git reset > removes all files from stage git
+git rm -cached -r . > Removes all files from stage
 git remote add origin "https://...." > Addresses a remote repository of name origin in given url. Name can be changed
-git push -u origin main > Pushes local repository to remote repository
-git push -f origin master > Forces a push when remote has gone through many commits.
+git branch > Shows branch name
+git push -u origin branchName > Pushes local repository to remote repository. Branch name can change. Usually it's master or main.
+git push -f origin branchName > Forces a push when remote has gone through many commits.
+git clone githubURL > Makes a local copy of a github repository
 
 //New line
 
