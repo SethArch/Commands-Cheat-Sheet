@@ -20,3 +20,5 @@ git reset > removes all files from stage git
 git remote add origin "https://...." > Addresses a remote repository of name origin in given url. Name can be changed
 git push -u origin main > Pushes local repository to remote repository
 
+//New line
+
